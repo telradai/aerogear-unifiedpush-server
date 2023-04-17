@@ -40,7 +40,7 @@ services:
   adminUi:
         image: quay.io/aerogear/unifiedpush-admin-ui:3.0.1
         environment:
-          UPS_HOST: http://localhost:9999
+          UPS_HOST: http://35.238.50.230:9999
         ports:
           - 8081:80      
   keycloakServer:
